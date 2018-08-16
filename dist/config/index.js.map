@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../src/config/index.js"],"names":[],"mappings":";;;;;kBAAc;AACV,YAAO,IADG;AAEV,gBAAW,kCAFD;AAGV,iBAAY;AAHF,C","file":"index.js","sourcesContent":["export default{\r\n    \"port\":3000 , \r\n    \"mongoUrl\":\"mongodb://localhost:27017/sdarah\" ,\r\n    \"bodyLimit\":\"1024kb\"\r\n} ;\r\n"]}
