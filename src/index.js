@@ -8,8 +8,6 @@ import config from './config' ;
 import routes from './routes' ;
 import cors from 'cors';
 // --- commit
-// console.log("ok") ;
-// commit 2
 let app = express() ;
 app.server = http.createServer(app) ;
 mongoose.Promise = Promise;
