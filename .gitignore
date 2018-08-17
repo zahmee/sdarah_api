@@ -1,0 +1,5 @@
+# Dependency directories
+node_modules
+start_server.bet
+.vscode
+dist
