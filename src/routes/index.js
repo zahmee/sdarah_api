@@ -12,6 +12,7 @@ import people from "../controller/people";
 import csBills from "../controller/csBills"; 
 import itemsDetails from "../controller/itemsDetails"; 
 import invoice from "../controller/invoice"; 
+import invoiceReport from "../controller/invoiceReport"; 
 import branches from "../controller/branches"; 
 import exchangeCustody from "../controller/exchangeCustody"; 
 
@@ -31,6 +32,7 @@ initializeDb(db =>{
   router.use("/csbills", csBills({ config, db })); 
   router.use("/itemsDetails", itemsDetails({ config, db })); 
   router.use("/invoice", invoice({ config, db })); 
+  router.use("/invRep", invoiceReport({ config, db })); 
   router.use("/branches", branches({ config, db })); 
   router.use("/exchangeCustody", exchangeCustody({ config, db })); 
 

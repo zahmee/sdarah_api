@@ -23,6 +23,7 @@ let invoice = new Schema({
     ref: 'Account'
   },
   items : [{}] ,
+  inv_no: { type: Number },
 });
 
 module.exports = mongoose.model("Invoice", invoice);
